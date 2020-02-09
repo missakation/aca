@@ -1,0 +1,53 @@
+/* Global imports */
+@import 'variables.scss';
+@import 'fonts.scss';
+@import 'material-theme-aca.scss';
+
+/* Hardcoded styles - global scope */
+// Note: This is not an ideal place for this, think about its own scss file with rational added to the file header
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.checkbox-white {
+  color: white;
+  .mat-checkbox-frame {
+    border-color: white;
+  }
+}
+
+//MAT-GRID-TILE STYLES
+mat-grid-tile.align-left {
+  .mat-figure {
+    justify-content: flex-start;
+  }
+}
+
+mat-grid-tile.align-right {
+  .mat-figure {
+    justify-content: flex-end;
+  }
+}
+
+//Layout
+.margin-top {
+  margin-top: 16px;
+}
+.margin-left {
+  margin-left: 16px;
+}
+.margin-right {
+  margin-right: 16px;
+}
+.center {
+  text-align: center;
+}

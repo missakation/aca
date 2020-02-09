@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <mat-toolbar color="primary">
+    <div class="header-logo"></div>
+    <div class="header-menu">
+      <button mat-button [matMenuTriggerFor]="menu">Settings</button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          Test
+        </button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+    </div>
+  </mat-toolbar>
+  <div class="page-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
