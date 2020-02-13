@@ -1,13 +1,33 @@
 import { Component, OnInit } from '@angular/core';
+import { Courses } from '../models/courses';
 
 @Component({
-  selector: 'prx-home',
+  selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  constructor() { }
 
-  ngOnInit() { }
+  courses: Courses[];
+  constructor() { 
+
+
+  }
+
+  ngOnInit() {
+
+    this.courses = [{
+      id: 1,
+      title: 'Java - Introduction',
+      subtitle: '',
+      description: 'viola'
+    }, {
+      id: 1,
+      title: 'Java - Introduction',
+      subtitle: '',
+      description: 'viola'
+    }]
+
+  }
 
 }

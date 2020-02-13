@@ -1,5 +1,5 @@
-@import '~@angular/material/theming';
-@import 'material-theme-aca-colors.scss';
+@import "~@angular/material/theming";
+@import "material-theme-aca-colors.scss";
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -41,7 +41,6 @@ $dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
 // Define a custom typography config that overrides the font-family as well as the
 // `headlines` and `body-1` levels.
 $aca-typography: mat-typography-config(
-  $font-family: 'Montserrat',
   /*$headline: mat-typography-level(22px, 16px, 700),
   $title: mat-typography-level(20px, 16px, 700),
   $subheading-2: mat-typography-level(38px, 16px, 700),

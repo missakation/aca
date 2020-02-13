@@ -66,7 +66,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ArmenianCodeAcademyV2:build"
+            "browserTarget": "ArmenianCodeAcademyV2:build",
+            "port": 4201
           },
           "configurations": {
             "production": {
@@ -126,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "ArmenianCodeAcademyV2"
+  "defaultProject": "ArmenianCodeAcademyV2",
+  "cli": {
+    "analytics": false
+  }
 }
