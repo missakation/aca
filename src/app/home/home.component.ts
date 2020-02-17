@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit {
   courses: Courses[];
   constructor() { 
 
+    
 
   }
 
@@ -19,12 +20,12 @@ export class HomeComponent implements OnInit {
     this.courses = [{
       id: 1,
       title: 'Java - Introduction',
-      subtitle: '',
+      subtitle: 'Wow',
       description: 'viola'
     }, {
       id: 1,
       title: 'Java - Introduction',
-      subtitle: '',
+      subtitle: 'Wow',
       description: 'viola'
     }]
 
