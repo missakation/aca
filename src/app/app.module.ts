@@ -19,7 +19,6 @@ import { MatIconModule } from '@angular/material/icon';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CoursesComponent } from './courses/courses.component';
 import { SchedulesComponent } from './schedules/schedules.component';
 import { AboutUsComponent } from './about-us/about-us.component';
@@ -28,7 +27,6 @@ import { AboutUsComponent } from './about-us/about-us.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactUsComponent,
     CoursesComponent,
     SchedulesComponent,
     AboutUsComponent
