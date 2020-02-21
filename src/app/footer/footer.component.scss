@@ -1,0 +1,82 @@
+.footer {
+  background-color: #15141f;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+  div,
+  a {
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+}
+
+.social {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.social .socialItem + .socialItem {
+  margin-left: 1.5rem;
+}
+
+@media only screen and (min-width: 48rem) {
+  .social {
+    justify-content: flex-end;
+  }
+}
+
+.footerReferences {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 48rem) {
+  .footerReferences {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .footerReferences > .reference + .reference {
+    margin-left: 3rem;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 48rem) {
+  .container > div:nth-of-type(2) {
+    justify-content: center;
+  }
+}
+
+.container > div:nth-of-type(2) {
+  flex-basis: 50%;
+  display: flex;
+}
+
+@media only screen and (min-width: 48rem) {
+  .container {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.container_1 {
+  max-width: 90rem !important;
+  margin: auto;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+}

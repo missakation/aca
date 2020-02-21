@@ -74,20 +74,24 @@
     padding-bottom: 5rem;
   }
 
-  .subjectRow {
-    flex-direction: row;
-    justify-content: space-between;
+  @media only screen and (min-width: 48rem) {
+    .subjectRow {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  @media only screen and (min-width: 48rem) {
+    .subjectRow > div {
+      flex: 1 0;
+      margin-top: 0;
+    }
   }
 
   @media only screen and (min-width: 48rem) {
     .subjectRow > div + div {
       margin-left: 5%;
     }
-  }
-
-  .subjectRow > div {
-    flex: 1 0;
-    margin-top: 0;
   }
 
   .subjectHeadingContainer {
